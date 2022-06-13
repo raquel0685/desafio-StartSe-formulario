@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta httt-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StartSe</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./img/image.png" alt="logo" />
+            <div class="menu-section">
+                <div class="menu-container">
+                    <input type="checkbox" id="menu-checkbox" />
+                    <label for="menu-checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#artigos">Artigos</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-main" id="home">
+            <div>
+                <h2><span>Inscreva-se agora</span></h2>
+                <h2>na Newsletter</h2>
+                <h3>Provocando novos começos com o conhecimento transformador na velocidade do AGORA!</h3>
+                <form>
+                    <input type="text" placeholder="Nome" />
+                    <input type="email" placeholder="E-mail" />
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+            <img src="./img/register.webp" alt="">
+        </div>
+    </main>
+    <section class="cards" id="artigos">
+        <div class="card">
+            <div class="image">
+                <img src="./img/unicornio.webp" alt="">
+            </div>
+
+            <div class="card-content">
+                <p class="title text--medium">
+                    Com startups mais 'baratas', grandes empresas buscam aquisições
+                </p>
+                <div class="info">
+                    <p class="text--medium">57 mins</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./img/unicornio.webp" alt="">
+            </div>
+
+            <div class="card-content">
+                <p class="title text--medium">
+                    Com startups mais 'baratas', grandes empresas buscam aquisições
+                </p>
+                <div class="info">
+                    <p class="text--medium">57 mins</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./img/unicornio.webp" alt="">
+            </div>
+
+            <div class="card-content">
+                <p class="title text--medium">
+                    Com startups mais 'baratas', grandes empresas buscam aquisições
+                </p>
+                <div class="info">
+                    <p class="text--medium">57 mins</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <form action="#" method="post">
+            <h1>Entre em contato conosco:</h1>
+            <div>
+                <input type="text" placeholder="Nome Completo" required>
+            </div>  
+            <div>
+                <input type="email" placeholder="e-mail" required>
+            </div>  
+            <div>
+                <select name="assunto" id="assunto">
+                    <option value="selection" selected>Selecione o assunto:</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="demais">Demais Assuntos</option>
+                </select>
+            </div>   
+            <div>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem." required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar Mensagem">
+            </div> 
+        </form>
+    </section>
+</body>
+
+</html>
